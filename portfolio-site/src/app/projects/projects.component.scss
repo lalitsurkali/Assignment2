@@ -1,0 +1,30 @@
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .projects-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .projects-table th, .projects-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .projects-table th {
+    background-color: #f2f2f2;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .projects-table td img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  

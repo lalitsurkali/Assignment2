@@ -1,0 +1,45 @@
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-me-content {
+    flex: 0 0 60%;
+    padding: 20px;
+  }
+  
+  .about-me-heading {
+    font-family: "Arial", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-paragraph {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: #1114c9;
+  }
+  .resume-link a {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .profile-image-container {
+    flex: 100 100 70%;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
